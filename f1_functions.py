@@ -11,8 +11,8 @@ def get_lap_times(df, year, circuit, race_type):
         laps = race.load_laps(with_telemetry=True)
 
         # Add columns for the year and the circuit
-        laps['year'] = year
-        laps['circuit'] = circuit
+        laps['Year'] = year
+        laps['Circuit'] = circuit
 
         # Concatenate all the laps
         df = pd.concat([df, laps], ignore_index=True)
