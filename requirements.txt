@@ -5,5 +5,4 @@ pandas
 seaborn
 nfl-data-py
 fastf1
-spacexpy
 plottable
