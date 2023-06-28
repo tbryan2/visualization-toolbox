@@ -35,7 +35,7 @@ class F1Session:
     def get_session_results(self, year: str, circuit: str, session_type: str) -> Optional[pd.DataFrame]:
         '''
         Get the results of the session.
-        '''
+        '''`
         try:
             session, event_name = self.load_session(
                 year, circuit, session_type)
