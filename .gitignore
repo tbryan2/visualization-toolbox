@@ -130,3 +130,5 @@ dmypy.json
 
 # add the f1 cache
 f1/cache
+nfl/cache
+.Rproj.user
