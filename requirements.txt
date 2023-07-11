@@ -6,3 +6,4 @@ seaborn
 nfl-data-py
 fastf1
 plottable
+adjustText
